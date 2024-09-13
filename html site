@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang ="pt-br">
+
+<head>
+    <h1 style="font-size: 36px;">Exercício de HTML</h1>
+    <p>Acesse o <a href="https://www.w3schools.com/" >W3schools</a>. para mais tutorials sobre HTML.</p>
+
+    <p><a href="https://www.google.com/intl/pt-BR/forms/about/" >Ir para o formulário</a></p>
+
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Horário</th>
+                <th>Atividade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda</td>
+                <td>08:00-12:00</td>
+                <td>Aulas</td>
+            </tr> 
+            <tr>
+                <td>Terça</td>
+                <td>13:00-17:00</td>
+                <td>Estudo em grupo</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>08:00-12:00</td>
+                <td>Aulas</td>
+             </tr>
+             </tbody>
+             </table>
+             </body>
+             </html>
+
+             <h1 style="font-size: 25px;">Imagem de Exemplo</h1>
+
+             <img src="C:\Users\aluno.den\Downloads\html.jpeg" alt="imagem">
+             <figcaption>HTML,CSS,JavaScript</figcaption>
+             
+
+
+
+<head>
+    <h1 style="font-size: 25px;">LISTA DE DEFINIÇÕES: Termos de Programação</h1>
+    <p>HTML</p>
+    <blockquote>
+     Linguagem de marcação para a construção de páginas web.
+    </blockquote>
+    <p>CSS</p>
+    <blockquote>
+        Folhas de estilo usadas para utilizar HTML.
+    </blockquote>
+    <p>JavaScript</p>
+    <blockquote>
+         Linguagem de programação usada para adicionar interatividade ás páginas web.  
+    </blockquote>
+
+<meta charset="utf-8">
+</head>
+<body>
+
+
+    <h1 style="font-size: 25px;">Formulário de Cadastro</h1>
+
+    <p>Nome:</p>
+    <input type="text" placeholder="Digite aqui"><br/>
+
+    <p>Email:</p>
+    <input type="text" placeholder="Digite aqui"><br/>
+
+    <p>Senha:</p>
+    <input type="text" placeholder="Digite aqui"><br/>
+
+    <p>Gênero:</p>
+    <select>
+      <option value="Masculino">Masculino</option>
+      <option value="Masculino">Feminino</option>
+      <option value="Não binário">Não Binário</option>
+      <option value="Prefiro não informar">Prefiro não informar</option>
+      <option value="Outro">Outro</option>
+    </select>
+    
+     </p></p>
+
+    <input type="button" value="ENVIAR">
+
+    <p><a href="http://localhost:3000/listadefini%C3%A7%C3%B5es.html" >Voltar ao topo</a></p>
+
